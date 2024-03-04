@@ -23,7 +23,7 @@ export default function UpdatePost() {
   const { postId } = useParams();
 
   const navigate = useNavigate();
-    const { currentUser } = useSelector((state) => state.user);
+  const { currentUser } = useSelector((state) => state.user);
 
   useEffect(() => {
     try {
@@ -130,9 +130,9 @@ export default function UpdatePost() {
             value={formData.category}
           >
             <option value='uncategorized'>Select a category</option>
-            <option value='javascript'>JavaScript</option>
-            <option value='reactjs'>React.js</option>
-            <option value='nextjs'>Next.js</option>
+            <option value='Web Development'>Web Development</option>
+            <option value='Cyber Security'>Cyber Security</option>
+            <option value='Tech'>Tech</option>
           </Select>
         </div>
         <div className='flex gap-4 items-center justify-between border-4 border-teal-500 border-dotted p-3'>
