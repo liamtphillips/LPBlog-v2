@@ -11,7 +11,7 @@ export default function FooterCom() {
               to='/'
               className='self-center whitespace-nowrap text-lg sm:text-xl font-semibold dark:text-white'
             >
-              <span className='px-2 py-1 rounded-lg text-white'>
+              <span className='px-2 py-1 rounded-lg text-black dark:text-white'>
                 LP-Blog
               </span>
             </Link>
